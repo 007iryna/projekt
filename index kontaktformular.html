@@ -1,0 +1,118 @@
+   <!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navigator</title>
+    <link rel="stylesheet" href="css/style kontaktformular.css"> <!--Link til ekstern css fil/stylesheet-->
+    
+</head>
+<body>
+
+    <!--Header-->
+    <header> 
+      
+          <div class="site-header">
+            <nav>
+                <a href="index.html"><img class="logo" src="img/navigator logo.png" alt="Logo"></a>
+                 <ul class="header-menu">
+                   <li><a href="#">Info</a></li>
+                   <li><a href="#">Kontakt</a></li>
+                 </ul>
+            </nav>
+          </div>
+        
+
+    </header>
+
+    <!---Kontaktform - hovedindhold--->
+    <main class="kontaktform">
+       <h1>Kontakt os</h1>
+         <p class="kontakt-tekst">Skriv til os via kontaktformularen og så vender vi tilbage til dig</p>
+
+         <form>
+             <label for="navn">Navn</label>
+             <input id="navn" type="text" required>
+
+             <label for="mail">E-mail</label>
+             <input id="mail" type="email">
+
+             <label for ="tel">Telefon</label>
+             <input id="tel" type="tel">
+
+             <label for="adresse">Adresse</label>
+              <input id="adresse" type="text">
+
+              <!---Dropdown--->
+              <div class="custom-select">
+                  <label for="region">Valg region</label>
+                  <select id="region">
+                     <option value="0" selected="true" disabled>Vælg region</option>
+                     <option value="1">Syddanmark</option>
+                     <option value="2">Sjælland</option>
+                     <option value="3">Hovedstaden</option>
+                     <option value="4">Nordjulland</option>
+                     <option value="5">Midtjulland</option>
+                  </select>
+              </div>
+
+
+              <!---Checkbox af services--->
+              <fieldset class="checkbox">
+                  <legend>Hvilke services ønsker du tilbud på?</legend>
+                  <div>
+                     <input type="checkbox" id="nyheder">
+                     <label for="nyheder">Nyheder</label>
+
+                      <input type="checkbox" id="andet">
+                     <label for="andet">Vælg andet</label>
+                  </div>
+
+                  <div>
+                      <input type="text">
+                      <label for=""></label>
+                  </div>
+              </fieldset>
+
+              <label for="besked">Besked</label>
+              <textarea id="besked" cols="30" rows="10"></textarea>
+
+
+              <fieldset>
+                  <legend>Må vi kontakte dig på telefon?</legend>
+
+                  <input id="ja" type="radio" name="kontakt">
+                  <label for="nej">ja</label>
+
+                   <input id="ja" type="radio" name="kontakt">
+                  <label for="nej">Nej</label>
+              </fieldset>
+
+
+              <input type="submit" name="submit" value="Send besked">
+   
+         </form>
+
+
+    </main>
+
+    
+
+
+ </main>
+
+<footer>
+  <div class="footer-content">
+        <div class="footer-logo">
+         <a> <img class="logo" src="img/navigator logo.png" alt="Logo"></a>
+        </div>
+       
+  </div>
+
+</footer>
+    
+</body>
+</html>
+
+
+</main>

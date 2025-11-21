@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ 
+body{
+   font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(17, 6, 63);
+    margin: 0 0 5em 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 6, 63);
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+
+.kontakt-text{
+    font-weight: 200;
+    font-size: 22px;
+    
+}
+
+
+/*---header---*/
+.site-header{
+    background-color: rgb(11, 11, 39);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 130px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 5px rgba(91, 102, 255, 0.3);
+    
+}
+   
+
+   
+
+.logo{
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 200px;
+    margin: auto;
+    max-height: 130px;
+    width: auto;
+    
+ }
+
+
+
+  /* Navigation menu styles*/
+
+header nav{
+    display: flex;
+    padding: 1em;
+    align-self: center;
+
+  
+
+    
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-self: end;
+    align-self: center;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+nav li {
+    display: inline-block;
+   padding: 1em;
+   margin-right: 20px;
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+
+.kontaktform{
+    background-color: rgb(165, 199, 248);
+    padding: 1.3em;
+    max-width: 30%;
+    min-width: fit-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=adresse], select, textarea{
+    width:100%;
+    padding: 1em;
+    border: 1px solid rgb(17, 6, 63);
+    margin-top: 0,5em;
+    margin-bottom: 1em;
+
+}
+
+select, input[type=checkbox], input[type=radio], input[type=submit]{
+    cursor: pointer;
+}
+
+fieldset{
+    border-color: transparent;
+    margin-bottom: 0.8em;
+
+}
+
+input[type=checkbox]{
+    margin: 0.8em ;
+}
+ input[type=submit]{
+    background-color: wheat;
+    color: rgb(17, 6, 63);
+    padding: 0.8em, 1,5em;
+    border: solid;
+    border-color: white;
+    width: 100%;
+    font-size: 18px;
+    height: 50px;
+   
+ }
+
+input[type=submit]:hover{
+    background-color: white;
+}
+
+
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 11, 39);
+    height: 300px;
+    align-items: center;
+    text-align: center;
+      
+}
+
+.footer-logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-logo img{
+    max-width: 130px;
+    height: auto;
+
+}
+
+
+
+
+
+/*---en stor skærm--*/
+@media only screen and (max-width: 850px){
+    main{
+        width: 100%;
+    }
+    body{
+        margin: 0;
+    }
+}
+    
